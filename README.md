@@ -1,5 +1,5 @@
-# BD-projeto-trio-escola-musica
-projeto feito em grupo para atividade de banco de dados
+# BD Projeto em Trio para uma Escola de Música
+projeto feito em grupo para atividade de banco de dados.
 
 
 ## Autores
