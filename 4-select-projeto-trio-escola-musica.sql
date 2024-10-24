@@ -217,9 +217,9 @@ select orq.nome as "Nome da Orquestra", orq.pais as "País da Orquestra",
 -- ordenado pela Quantidade de Instrumentos em ordem decrescente.
 
 select ins.tipo as "Tipo de Instrumento", count(*) as "Quantidade de Instrumentos"
-from Instrumento ins
-group by ins.tipo
-order by count(*) desc;
+	from Instrumento ins
+		group by ins.tipo
+			order by count(*) desc;
 
 -- Relatório 19 - Lista detalhadamente as funções desempenhadas por cada músico em cada sinfonia,
 -- trazendo as colunas (Nome do Músico, CPF do Músico, Nome da Sinfonia, Compositor da Sinfonia, Nome da Função),
